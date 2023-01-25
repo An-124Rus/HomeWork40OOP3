@@ -1,0 +1,8 @@
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\bin\Debug\HomeWork40OOP3.exe.config
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\bin\Debug\HomeWork40OOP3.exe
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\bin\Debug\HomeWork40OOP3.pdb
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\obj\Debug\HomeWork40OOP3.csproj.AssemblyReference.cache
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\obj\Debug\HomeWork40OOP3.csproj.SuggestedBindingRedirects.cache
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\obj\Debug\HomeWork40OOP3.csproj.CoreCompileInputs.cache
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\obj\Debug\HomeWork40OOP3.exe
+E:\CSlight\HomeWork40OOP3\HomeWork40OOP3\obj\Debug\HomeWork40OOP3.pdb
