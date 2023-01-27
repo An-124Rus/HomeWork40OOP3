@@ -34,18 +34,23 @@ namespace HomeWork40OOP3
                     case AddPlayerCommand:
                         database.AddPlayer();
                         break;
+
                     case BanPlayerCommand:
                         database.BanPlayer();
                         break;
+
                     case UnbanPlayerCommand:
                         database.UnbanPlayer();
                         break;
+
                     case DeletePlayerCommand:
                         database.DeletePlayer();
                         break;
+
                     case ShowAllPlayersInfoCommand:
                         database.ShowAllPlayersInfo();
                         break;
+
                     case ExitCommand:
                         isWorking = false;
                         break;
@@ -56,9 +61,6 @@ namespace HomeWork40OOP3
 
     class Player
     {
-        private const string StatusBan = "Забанен";
-        private const string StatusUnban = "Не забанен";
-
         public Player(int number, string nik, int level, bool isBanned = false)
         {
             Number = number;
@@ -74,6 +76,9 @@ namespace HomeWork40OOP3
 
         public void ShowInfo()
         {
+            string StatusBan = "Забанен";
+            string StatusUnban = "Не забанен";
+
             Console.Write($"Номер: {Number}, ник: {Nik}, уровень: {Level}, ");
 
             if (IsBanned)
@@ -180,7 +185,7 @@ namespace HomeWork40OOP3
             return false;
         }
 
-        public int ParseNumber(string mesage)
+        private int ParseNumber(string mesage)
         {
             int number;
 
